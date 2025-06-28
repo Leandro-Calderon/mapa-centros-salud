@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centros de Salud Barranquilla</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+	<div id="filtros">
+    <label for="categoria">Filtrar por categoría: </label>
+    <select id="categoria">
+      <option value="">Todas</option>
+      <option value="hospital">Hospital</option>
+      <option value="clinica">Clínica</option>
+      <option value="centro medico">Centro Médico</option>
+    </select>
+  </div>
+  <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
