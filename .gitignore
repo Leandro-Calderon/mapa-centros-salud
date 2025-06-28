@@ -1,15 +1,21 @@
-# Entorno virtual
-venv/
+# Ignorar entornos virtuales (como venv en backend)
+backend/venv/
+
+# Ignorar archivos de caché de Python
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Ignorar archivos de entorno
+*.env
 .env
 
-# Archivos temporales
-*.pyc
-__pycache__/
-
-# Archivos de configuración sensibles
-.env
+# Ignorar bases de datos temporales
 *.db
+
+# Ignorar archivos de log
 *.log
 
-# Archivos de sistema
+# Archivos de sistema (por si lo subís desde distintas computadoras)
 .DS_Store
+Thumbs.db
